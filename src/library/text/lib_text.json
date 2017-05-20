@@ -1,0 +1,50 @@
+{	"heading": {
+		"font": "library/assets_lib/fonts/Niconne-Regular.ttf",
+		"size": 28,
+		"color": [1, 1, 1, 1]
+	},
+	
+	
+	"sub_heading": {
+		"font": "library/assets_lib/fonts/KiteOne-Regular.ttf",
+		"size": 18,
+		"color": [1, 1, 1, 1]
+	},
+	
+	
+	"sub_sub_heading": {
+		"font": "library/assets_lib/fonts/KiteOne-Regular.ttf",
+		"size": 16,
+		"color": [1, 1, 1, 1]
+	},
+	
+	
+	"normal_text": {
+		"font": "library/assets_lib/fonts/Comfortaa-Regular.ttf",
+		"size": 15,
+		"line_spacing": 1.3,
+		"color": [1, 1, 1, 1]
+	},
+	
+	
+	"mini_normal_text": {
+		"font": "library/assets_lib/fonts/Comfortaa-Regular.ttf",
+		"size": 13,
+		"line_spacing": 1.3,
+		"color": [1, 1, 1, 1]
+	},
+	
+	
+	"mini_app_description": {
+		"font": "library/assets_lib/fonts/Comfortaa-Regular.ttf",
+		"size": 12,
+		"color": [1, 1, 1, 1]
+	},
+	
+	
+	"footer": {
+		"font": "library/assets_lib/fonts/Niconne-Regular.ttf",
+		"size": 20,
+		"color": [1, 1, 1, 1]
+	}
+}

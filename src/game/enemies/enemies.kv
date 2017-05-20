@@ -1,0 +1,11 @@
+#kivy 1.8.0
+
+<Attacker>
+	x: root.pos[0]
+	y: root.pos[1]
+    size: root.size_x, root.size_y  
+    canvas.before:
+        Rectangle:
+        	source: root.source_image
+            pos: self.pos
+            size: self.size 

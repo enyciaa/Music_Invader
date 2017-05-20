@@ -1,0 +1,26 @@
+<ButtonLabel>
+	on_touch_down: 
+    	if self.collide_point(*args[1].pos): self.click_down(self)
+    on_touch_move: 													
+    	if self.collide_point(*args[1].pos): pass     #if touch moves off play button highlighting goes away
+    	else: self.click_moved(self)
+	on_touch_up:                    
+		if self.collide_point(*args[1].pos): self.click_up(self) 
+	font_name: app.lib_button_layout["button_label"]["font"]
+	font_size: sp(app.lib_button_layout["button_label"]["size"])
+	color: app.lib_button_layout["button_label"]["normal_color"]
+	text_size: self.size
+	halign: 'center'
+	valign: 'middle'
+	#DON'T USE TEXT MARKUP - it stops the color being changed by the functions
+		
+		
+<ButtonClicks>	
+	on_touch_down: 
+    	if self.collide_point(*args[1].pos): self.click_down(self)
+    on_touch_move: 													
+    	if self.collide_point(*args[1].pos): pass     #if touch moves off play button highlighting goes away
+    	else: self.click_moved(self)	
+	###on_touch_up is inside each instance so a unique button identifier can be passed to the function library to run
+    
+    

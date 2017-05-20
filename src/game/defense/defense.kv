@@ -1,0 +1,22 @@
+#kivy 1.8.0
+
+<Turret>
+	x: root.pos[0]
+	y: root.pos[1]
+    size: root.size_x, root.size_y  
+    canvas.before:
+        Rectangle:
+        	source: 'assets/game/defense/turret.png'
+            pos: self.pos
+            size: self.size 
+            
+
+<Projectile> 
+	x: root.pos[0]
+	y: root.pos[1]
+    size: root.size_x, root.size_y  
+	canvas.before:
+        Rectangle:
+        	source: 'assets/game/enemies/enemy0.png'
+            pos: self.pos
+            size: self.size           

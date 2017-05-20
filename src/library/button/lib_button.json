@@ -1,0 +1,12 @@
+{	
+	"button_label": {
+		"font": "library/assets_lib/fonts/Comfortaa-Regular.ttf",
+		"normal_color": [1, 1, 1, 1],
+		"pressed_color": [0.5, 0.5, 0.5, 0.5],
+		"size": 16
+	},
+	
+	"button_clicks": {
+    	"pressed_color": [1, 1, 1, 0.5]
+	}
+}
